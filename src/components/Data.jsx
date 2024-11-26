@@ -60,7 +60,7 @@ export const productsData = [
         type: "Amplificador",
         price: 130,
         image: "https://example.com/images/marshall-mg15fx.jpg",
-        descriptio: "Compacto y versátil con efectos."
+        description: "Compacto y versátil con efectos."
     },
     {
         id: "8",
@@ -68,7 +68,7 @@ export const productsData = [
         brand: "Gibson",
         type: "Guitarra",
         price: 1200,
-        imag: "https://example.com/images/gibson-lespaul.jpg",
+        image: "https://example.com/images/gibson-lespaul.jpg",
         description: "Clásica y con sonido profesional."
     },
     {
@@ -78,7 +78,7 @@ export const productsData = [
         type: "Platillo",
         price: 300,
         image: "https://example.com/images/zildjian-acustom.jpg",
-        descriptio: "Sonido brillante y balanceado."
+        description: "Sonido brillante y balanceado."
     },
     {
         id: "10",
@@ -96,7 +96,7 @@ export const productsData = [
         type: "Pedal",
         price: 60,
         image: "https://example.com/images/boss-ds1.jpg",
-        descriptio: "Clásico efecto de distorsión."
+        description: "Clásico efecto de distorsión."
     },
     {
         id: "12",
@@ -114,7 +114,7 @@ export const productsData = [
         type: "Armónica",
         price: 50,
         image: "https://example.com/images/hohner-special20.jpg",
-        descriptio: "Versátil y duradera para blues."
+        description: "Versátil y duradera para blues."
     },
     {
         id: "14",
