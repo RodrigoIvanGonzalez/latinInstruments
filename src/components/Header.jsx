@@ -1,14 +1,13 @@
-import DropdownMenu  from './DropdownMenu'
-import NavBar from "./NavBar"
+import NavBar from './NavBar'
+import DropdownMenu from './DropdownMenu'
+
 const Header = () => {
 	return (
-		<>
-		<header>
-			<NavBar />
-			<DropdownMenu />
-		</header>
-		</>
-	)
-}
+	<header className="relative z-10 bg-opacity-80">
+		<NavBar />
+		<DropdownMenu />
+	</header>
+	);
+};
 
-export default Header
+export default Header;

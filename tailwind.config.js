@@ -7,7 +7,8 @@ export default {
     './src/components/NavBar.jsx',
     './src/components/MenuList.jsx',
     './src/components/DropdownMenu.jsx',
-    './src/components/BackgroundAnimated.jsx'
+    './src/components/BackgroundAnimated.jsx',
+    './src/components/Products.jsx'
   ],
   theme: {
     extend: {

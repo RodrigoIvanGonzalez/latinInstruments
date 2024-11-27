@@ -1,21 +1,17 @@
-
-import Header from "./components/header"
-import BackgroundAnimated from "./components/BackgroundAnimated"
-
-
+import Header from "./components/Header";
+import BackgroundAnimated from "./components/BackgroundAnimated";
+import Products from "./components/Products";
 
 function App() {
-
-
   return (
     <>
-
-      <Header />
       <BackgroundAnimated />
-
-
+      <Header />
+      <main className="relative z-10 p-4"> 
+        <Products />
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -4,179 +4,199 @@ export const productsData = [
         name: "Guitarra Acústica Fender FA-115",
         brand: "Fender",
         type: "Guitarra",
-        price: 150,
-        image: "https://example.com/images/fender-fa115.jpg",
-        description: "Excelente sonido para principiantes."
+        price: 250,
+        image: "https://via.placeholder.com/300x200",
+        description: "Excelente sonido para principiantes.",
+        mostSell: false
     },
     {
         id: "2",
         name: "Teclado Yamaha PSR-F52",
         brand: "Yamaha",
         type: "Teclado",
-        price: 200,
-        image: "https://example.com/images/yamaha-psrf52.jpg",
-        description: "Teclado versátil y compacto."
+        price: 500,
+        image: "https://via.placeholder.com/300x200",
+        description: "Teclado versátil y compacto.",
+        mostSell: false
     },
     {
         id: "3",
         name: "Batería Pearl Roadshow",
         brand: "Pearl",
         type: "Batería",
-        price: 600,
-        image: "https://example.com/images/pearl-roadshow.jpg",
-        description: "Ideal para aprendices y avanzados."
+        price: 850,
+        image: "https://via.placeholder.com/300x200",
+        description: "Ideal para aprendices y avanzados.",
+        mostSell: true
     },
     {
         id: "4",
         name: "Violín Stentor Student II",
         brand: "Stentor",
         type: "Violín",
-        price: 220,
-        image: "https://example.com/images/stentor-student2.jpg",
-        description: "Diseñado para estudiantes entusiastas."
+        price: 350,
+        image: "https://via.placeholder.com/300x200",
+        description: "Diseñado para estudiantes entusiastas.",
+        mostSell: false
     },
     {
         id: "5",
         name: "Bajo Eléctrico Ibanez GSR200",
         brand: "Ibanez",
         type: "Bajo",
-        price: 280,
-        image: "https://example.com/images/ibanez-gsr200.jpg",
-        description: "Sonido potente y definición clara."
+        price: 450,
+        image: "https://via.placeholder.com/300x200",
+        description: "Sonido potente y definición clara.",
+        mostSell: true
     },
     {
         id: "6",
         name: "Ukulele Kala KA-15S",
         brand: "Kala",
         type: "Ukulele",
-        price: 65,
-        image: "https://example.com/images/kala-ka15s.jpg",
-        description: "Perfecto para principiantes."
+        price: 100,
+        image: "https://via.placeholder.com/300x200",
+        description: "Perfecto para principiantes.",
+        mostSell: false
     },
     {
         id: "7",
         name: "Amplificador Marshall MG15FX",
         brand: "Marshall",
         type: "Amplificador",
-        price: 130,
-        image: "https://example.com/images/marshall-mg15fx.jpg",
-        description: "Compacto y versátil con efectos."
+        price: 200,
+        image: "https://via.placeholder.com/300x200",
+        description: "Compacto y versátil con efectos.",
+        mostSell: true
     },
     {
         id: "8",
         name: "Guitarra Eléctrica Gibson Les Paul",
         brand: "Gibson",
         type: "Guitarra",
-        price: 1200,
-        image: "https://example.com/images/gibson-lespaul.jpg",
-        description: "Clásica y con sonido profesional."
+        price: 2500,
+        image: "https://via.placeholder.com/300x200",
+        description: "Clásica y con sonido profesional.",
+        mostSell: true
     },
     {
         id: "9",
         name: "Platillo Zildjian A Custom",
         brand: "Zildjian",
         type: "Platillo",
-        price: 300,
-        image: "https://example.com/images/zildjian-acustom.jpg",
-        description: "Sonido brillante y balanceado."
+        price: 400,
+        image: "https://via.placeholder.com/300x200",
+        description: "Sonido brillante y balanceado.",
+        mostSell: true
     },
     {
         id: "10",
         name: "Micrófono Shure SM58",
         brand: "Shure",
         type: "Micrófono",
-        price: 100,
-        image: "https://example.com/images/shure-sm58.jpg",
-        description: "Indispensable para grabación vocal."
+        price: 150,
+        image: "https://via.placeholder.com/300x200",
+        description: "Indispensable para grabación vocal.",
+        mostSell: false
     },
     {
         id: "11",
         name: "Pedal Boss DS-1 Distortion",
         brand: "Boss",
         type: "Pedal",
-        price: 60,
-        image: "https://example.com/images/boss-ds1.jpg",
-        description: "Clásico efecto de distorsión."
+        price: 100,
+        image: "https://via.placeholder.com/300x200",
+        description: "Clásico efecto de distorsión.",
+        mostSell: true
     },
     {
         id: "12",
         name: "Guitarra Clásica Yamaha C40",
         brand: "Yamaha",
         type: "Guitarra",
-        price: 140,
-        image: "https://example.com/images/yamaha-c40.jpg",
-        description: "Calidad y comodidad para aprender."
+        price: 300,
+        image: "https://via.placeholder.com/300x200",
+        description: "Calidad y comodidad para aprender.",
+        mostSell: true
     },
     {
         id: "13",
         name: "Armónica Hohner Special 20",
         brand: "Hohner",
         type: "Armónica",
-        price: 50,
-        image: "https://example.com/images/hohner-special20.jpg",
-        description: "Versátil y duradera para blues."
+        price: 70,
+        image: "https://via.placeholder.com/300x200",
+        description: "Versátil y duradera para blues.",
+        mostSell: false
     },
     {
         id: "14",
         name: "Cajón Flamenco Meinl",
         brand: "Meinl",
         type: "Cajón",
-        price: 110,
-        image: "https://example.com/images/meinl-cajon.jpg",
-        description: "Sonido profundo y resonante."
+        price: 170,
+        image: "https://via.placeholder.com/300x200",
+        description: "Sonido profundo y resonante.",
+        mostSell: false
     },
     {
         id: "15",
         name: "Viola Cecilio CVA-400",
         brand: "Cecilio",
         type: "Viola",
-        price: 250,
-        image: "https://example.com/images/cecilio-cva400.jpg",
-        description: "Gran opción para principiantes."
+        price: 400,
+        image: "https://via.placeholder.com/300x200",
+        description: "Gran opción para principiantes.",
+        mostSell: false
     },
     {
         id: "16",
         name: "Guitarra Eléctrica Ibanez RG550",
         brand: "Ibanez",
         type: "Guitarra",
-        price: 800,
-        image: "https://example.com/images/ibanez-rg550.jpg",
-        description: "Versatilidad para todos los estilos."
+        price: 1200,
+        image: "https://via.placeholder.com/300x200",
+        description: "Versatilidad para todos los estilos.",
+        mostSell: true
     },
     {
         id: "17",
         name: "Contrabajo Cremona SB-2",
         brand: "Cremona",
         type: "Contrabajo",
-        price: 850,
-        image: "https://example.com/images/cremona-sb2.jpg",
-        description: "Perfecto para orquestas estudiantiles."
+        price: 1200,
+        image: "https://via.placeholder.com/300x200",
+        description: "Perfecto para orquestas estudiantiles.",
+        mostSell: true
     },
     {
         id: "18",
         name: "Mandolina Kentucky KM-150",
         brand: "Kentucky",
         type: "Mandolina",
-        price: 300,
-        image: "https://example.com/images/kentucky-km150.jpg",
-        description: "Ideal para música tradicional."
+        price: 350,
+        image: "https://via.placeholder.com/300x200",
+        description: "Ideal para música tradicional.",
+        mostSell: false
     },
     {
         id: "19",
         name: "Pedalera Line 6 Helix LT",
         brand: "Line 6",
         type: "Pedalera",
-        price: 1000,
-        image: "https://example.com/images/line6-helixlt.jpg",
-        description: "Procesador multiefectos profesional."
+        price: 1500,
+        image: "https://via.placeholder.com/300x200",
+        description: "Procesador multiefectos profesional.",
+        mostSell: true
     },
     {
         id: "20",
         name: "Conga LP Aspire",
-        brand : "Latin Percussion",
+        brand: "Latin Percussion",
         type: "Conga",
-        price: 180,
-        image: "https://example.com/images/lp-aspire.jpg",
-        description: "Sonido auténtico y durabilidad."
+        price: 250,
+        image: "https://via.placeholder.com/300x200",
+        description: "Sonido auténtico y durabilidad.",
+        mostSell: false
     }
-]
+];
