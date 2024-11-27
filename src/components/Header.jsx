@@ -1,11 +1,11 @@
-import MenuList from "./MenuList"
+import DropdownMenu  from './DropdownMenu'
 import NavBar from "./NavBar"
 const Header = () => {
 	return (
 		<>
 		<header>
-      <NavBar />
-      <MenuList />
+			<NavBar />
+			<DropdownMenu />
 		</header>
 		</>
 	)

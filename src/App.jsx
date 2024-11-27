@@ -1,4 +1,7 @@
+
 import Header from "./components/header"
+import BackgroundAnimated from "./components/BackgroundAnimated"
+
 
 
 function App() {
@@ -6,7 +9,11 @@ function App() {
 
   return (
     <>
-    <Header />
+
+      <Header />
+      <BackgroundAnimated />
+
+
     </>
   )
 }
