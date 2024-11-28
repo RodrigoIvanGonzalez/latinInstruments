@@ -5,7 +5,7 @@ const Products = () => {
 
   return (
     <>
-      <section className="mt-32 mb-12">
+      <section className="m-12">
         <div className="container mx-auto px-4">
           <h1 className="text-center text-3xl text-white-warm font-bold mb-12">
             LOS PRODUCTOS MÁS VENDIDOS
@@ -15,7 +15,7 @@ const Products = () => {
           {mostSell.map((data) => (
             <div
               key={data.id}
-              className="bg-white-warm shadow-2xl rounded-lg p-4 flex flex-col items-center space-y-3 h-[350px] w-[220px]"
+              className="bg-white-warm shadow-card rounded-lg p-4 flex flex-col items-center space-y-3 h-[350px] w-[220px]"
             >
 
               <div className="aspect-w-3 aspect-h-4 w-full">

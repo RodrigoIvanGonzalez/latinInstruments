@@ -4,7 +4,7 @@ import { productsData } from './Data'
 
 const Dropdownmenu = () => {
   return(
-    <div className="flex  justify-around  bg-neutral-900 px-3 py-3 mb-20 xs:hidden ">
+    <div className=" hidden h-96 justify-around bg-transparent px-3 py-1 md:flex  ">
       <FlyoutLink href="#" FlyoutContent = {GuitarContent}>
         Guitarras
       </FlyoutLink>
@@ -155,4 +155,7 @@ const SoundContent = () =>{
   )
 }
 
+
 export default Dropdownmenu
+
+
